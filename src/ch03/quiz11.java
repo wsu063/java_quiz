@@ -8,8 +8,8 @@ public class quiz11 {
         char ch = 'A';
         ch = (char)(ch + 2);
 
-        float f = 3f / 2;
-        long l = (long) 3000 * 3000 * 3000;
+        float f = 3 / 2.0f;
+        long l = (long) 3000 * 3000 * 3000; // 혹은 3000 * 3000 * 3000L
         float f2 = 0.1f;
 
         double d = 0.1;

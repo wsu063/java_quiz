@@ -7,7 +7,7 @@ public class quiz03 {
         int pencilsPerStudent = (pencils / students); // 534 / 30 = 17
         System.out.println(pencilsPerStudent);
 
-        int pencilsLeft = pencils % 30; // 24
+        int pencilsLeft = pencils % students; // 24
         System.out.println(pencilsLeft);//남은 연필 수
 
 
