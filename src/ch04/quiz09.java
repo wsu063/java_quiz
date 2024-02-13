@@ -14,9 +14,13 @@ public class quiz09 {
             count++;
             System.out.println("1과 100사이의 값을 입력하세요");
             input = scanner.nextInt();
-            if (input == answer) {
-                System.out.println(count);
-                break;
+            if(input < answer) {
+                System.out.println("더 큰 수를 입력하세요.");
+            } else if(input > answer) {
+                System.out.println("더 작은 수를 입력하세요.");
+            } else {
+                    System.out.println(count);
+                    break;
             }
 
         } while(true);
