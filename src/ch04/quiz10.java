@@ -31,6 +31,7 @@ public class quiz10 {
                     break;
                 }
                 case "4" -> {
+                    // while문 조건을 boolean run을 써서 false로 해도 된다.
                     break;
                 }
                 default -> {
