@@ -32,6 +32,7 @@ public class BankApplication {
                     account[ctr].setBalance(Integer.parseInt(input));
                     System.out.println("결과: 계좌가 생성되었습니다.");
                     ctr++;
+                    //계좌번호 중첩됫을때 예외처리가 없음
                     break;
                 case "2":
                     System.out.println("-----------");
@@ -85,6 +86,17 @@ public class BankApplication {
         } while (run);
 
         System.out.println("프로그램 종료");
+        
+        // 함수 3개 만들어서 하셨음.
+        //계좌 생성 함수 / 계좌 목록 보여줌 함수 / 예금 함수 / 출금 함수 / 계좌번호로 고객 계좌찾는함수
+        //계좌 생성 함수: 배열이 비어있을때 추가하고, break. 계좌번호도 체크
+        /*계좌 찾는 함수: 배열에 저장된 객체별 계좌번호를 하나씩 비교해 계좌를 찾는다.
+            객체에 저장된 계좌번호 가져오기(accountArray[i] != null)
+            객체에 저장된 계좌번호와 매개변수의 계좌번호가 같으면 해당 객체를 account변수에 저장
+            해당 고객계좌가 없으면 메소드 종료
 
+
+
+         */
     }
 }

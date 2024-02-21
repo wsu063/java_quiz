@@ -11,8 +11,7 @@ public class MyTv {
 
     void turnOnOff() {
         // (1) isPowerOn의 값이 true면 false로, false면 true로 바꾼다.
-        if(isPowerOn) isPowerOn = false;
-        else isPowerOn = true;
+       isPowerOn = !isPowerOn;
     }
 
     void volumeUp() {

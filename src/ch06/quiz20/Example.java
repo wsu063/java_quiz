@@ -9,11 +9,9 @@ public class Example {
               }
               else return false;
           }
-          if(str.length() == 0)
-              return false;
-          else return true;
-    }
 
+          return str.isEmpty() ? false : true;
+    }
     public static void main(String[] args) {
         String str = "123";
         System.out.println(str + "는 숫자입니까? " + isNumber(str));
