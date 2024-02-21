@@ -86,7 +86,7 @@ public class CustomoerApplication {
         System.out.println("----------");
         System.out.println("포인트 사용");
         System.out.println("----------");
-        System.out.println("고객의 핸드폰 번호:  ");
+        System.out.print("고객의 핸드폰 번호:  ");
         String num = scanner.next();
         Customer point = findCustomer(num);
         int now = point.getPoint();
@@ -108,10 +108,10 @@ public class CustomoerApplication {
         System.out.println("---------");
         System.out.println("포인트 적립");
         System.out.println("---------");
-        System.out.println("적립할 고객의 핸드폰 번호: ");
+        System.out.print("적립할 고객의 핸드폰 번호: ");
         String num = scanner.next();
         Customer sp = findCustomer(num);
-        System.out.println("적립할 포인트: ");
+        System.out.print("적립할 포인트: ");
         int stack = scanner.nextInt();
         if(stack >= 2000){
             stack *= 1.1; // 손실발생가능성
